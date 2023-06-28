@@ -290,8 +290,8 @@ nav .menu{
  position: absolute;
  width: 100%;
  left: 0;
- top: 190px;
- z-index: 1;
+ top: 40px;
+ z-index: -1;
 }
 .float-container {
   border: 3px solid #fff;
@@ -300,6 +300,7 @@ nav .menu{
   position: relative;
   
 }
+
 .float-container .circle1{
   position: absolute;
   top: 490px;
@@ -390,25 +391,39 @@ nav .menu{
   
 }
 
+.illustrationimg img{
+  width: 600px;
+  height: 600px;
+  margin-top: 8rem;
+  z-index: -1;
+  margin-left: 50px;
+}
+.noticeboard{
+  position: relative;
+  top: -30px;
+  left: 85px;
+}
 .notice-heading h3 {
   padding: 10px;
-  margin-left:25rem;
-  margin-top: 3rem;
+  margin-left: 40rem;
+  margin-top: -40rem;
   font-size: 1.8rem;
-  color: black;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 250px;
+  letter-spacing: 0.1rem;
 } 
-
 #box {
-  margin-top: 20px;
-  width: 500px;
+  margin-top: 2rem;
+  width: 700px;
   height: 350px;
   overflow-y: scroll;
   overflow-x: hidden;
   box-sizing: border-box;
-  margin-left: 18rem;
-  border-left: 10px solid #df2020;
+  margin-left: 40rem;
+  border-left: 10px solid #000000;
   /* background-color: rgba(255, 255, 255, 0.895); */
-  background-color: #5252520b ;
+  background-color: #ffffff ;
   /* box-shadow: 6px 6px 9px 2px #001d459b; */
 }
 
@@ -420,7 +435,8 @@ nav .menu{
   font-weight: 500;
   cursor: pointer;
   border-top: 1px solid #d0cfcf;
-  color: black;
+  color: rgb(0, 0, 0);
+  background-color: #ffc44458;
 }
 
 #box > div:hover{
@@ -429,9 +445,9 @@ nav .menu{
 
 .date {
   font-size: 0.86rem;
-  margin-top: 4px;
-  margin-left: 23rem;
-  color: #df2020;
+  margin-top: 10px;
+  margin-left: 35rem;
+  color: #4b3619;
   font-weight: bolder;
 }
 
@@ -442,11 +458,12 @@ nav .menu{
 #fifth { background-color: #eae7e4; }
 #sixth { background-color: #a0a0a0;}  */
 .programs{
-  background-image: linear-gradient(to right, #ffffff, #ffffffae);
+  position: relative;
+  top: -500px;
 }
 .programs h1{
   text-align: center;
-  margin-top: 40rem;
+  margin-top: 1rem;
   color:#000000;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
@@ -546,7 +563,7 @@ nav .menu{
 }
 .achieve h1{
   text-align: center;
-  margin-top: 5rem;
+  margin-top: -25rem;
   color:#000000;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
