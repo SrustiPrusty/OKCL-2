@@ -290,8 +290,8 @@ nav .menu{
  position: absolute;
  width: 100%;
  left: 0;
- top: 100px;
- z-index: -1;
+ top: 190px;
+ z-index: 1;
 }
 .float-container {
   border: 3px solid #fff;
@@ -392,20 +392,20 @@ nav .menu{
 
 .notice-heading h3 {
   padding: 10px;
-  margin-left:16rem;
-  margin-top: 1rem;
+  margin-left:25rem;
+  margin-top: 3rem;
   font-size: 1.8rem;
   color: black;
 } 
 
 #box {
-  margin-top: 16px;
-  width: 650px;
-  height: 300px;
+  margin-top: 20px;
+  width: 500px;
+  height: 350px;
   overflow-y: scroll;
   overflow-x: hidden;
   box-sizing: border-box;
-  margin-left: 3rem;
+  margin-left: 18rem;
   border-left: 10px solid #df2020;
   /* background-color: rgba(255, 255, 255, 0.895); */
   background-color: #5252520b ;
@@ -430,7 +430,7 @@ nav .menu{
 .date {
   font-size: 0.86rem;
   margin-top: 4px;
-  margin-left: 31rem;
+  margin-left: 23rem;
   color: #df2020;
   font-weight: bolder;
 }
@@ -446,7 +446,7 @@ nav .menu{
 }
 .programs h1{
   text-align: center;
-  margin-top: 32rem;
+  margin-top: 40rem;
   color:#000000;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
