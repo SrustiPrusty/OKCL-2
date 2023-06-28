@@ -58,8 +58,8 @@ nav .menu{
 }
 
 .img1{
-  width: 125px;
-  height: 85px;
+  width: 85px;
+  height: 60px;
     margin-right: 0.8rem;
     position: relative;
     margin-top: 1rem;
@@ -193,8 +193,9 @@ nav .menu{
 }
 .center .btns button{
   height: 45px;
-  width: 150px;
-  border-radius: 0px;
+  width: 250px;
+  letter-spacing: 0.1rem;
+  border-radius: 15px;
   border: none;
   font-size: 15px;
   margin-top: -260px;
@@ -207,8 +208,8 @@ nav .menu{
   transition: all 0.3s ease;
 }
 .center .btns button:first-child{
-    color: #F78222;
-    background: #1e1e1e;
+    color: #ffffff;
+    background: #001D45;
 }
 
 .btns button:first-child:hover{
@@ -217,8 +218,8 @@ nav .menu{
   
 }
 .center .btns button:last-child{
-    color: #F78222;
-    background: #1e1e1e;
+    color: #ffffff;
+    background: #525252e6;
 }
 
 .btns button:last-child:hover{
@@ -285,10 +286,18 @@ nav .menu{
   }
   
 }
+.banner .wave1{
+ position: absolute;
+ width: 100%;
+ left: 0;
+ top: 100px;
+ z-index: -1;
+}
 .float-container {
   border: 3px solid #fff;
   padding: 20px;
   margin-bottom: 30rem;
+  position: relative;
   
 }
 .float-container .circle1{
@@ -306,6 +315,7 @@ nav .menu{
   width: 50%;
   float: left;
   padding: 15px;
+  height: 500px;
   /* border: 2px solid rgb(255, 255, 255); */
   background-color: transparent;
 }  
@@ -323,8 +333,8 @@ nav .menu{
   width: 29rem;
   margin-right: 63.8rem;
   margin-top: 5rem;
-  font-size: 1.5rem;
-  color: #001D45;
+  font-size: 1.6rem;
+  color: #000000;
   margin-left: 125px;
   margin-bottom: 10px;
 } 
@@ -363,15 +373,16 @@ nav .menu{
   border: none;
   margin-top: 25px;
   margin-left: 280px;
-  border: 2px solid #F78222;
+  border: 2px solid #525252e6;
   font-size: 15px;
   font-weight: 900;
   padding: 0 10px;
   cursor: pointer;
-  background-color: #f78222;
-  color: #fcfcfc;
+  background-color: #525252e6;
+  color: #ffffff;
   outline: none;
   transition: all 0.3s ease;
+  letter-spacing: 0.1rem;
 }
 .os-citbutton button:hover{
   color: #F78222;
@@ -384,7 +395,7 @@ nav .menu{
   margin-left:16rem;
   margin-top: 1rem;
   font-size: 1.8rem;
-  color: #001D45;
+  color: black;
 } 
 
 #box {
@@ -395,10 +406,10 @@ nav .menu{
   overflow-x: hidden;
   box-sizing: border-box;
   margin-left: 3rem;
-  border-left: 20px solid #df2020;
+  border-left: 10px solid #df2020;
   /* background-color: rgba(255, 255, 255, 0.895); */
-  background-color: rgb(255, 250, 240) ;
-  box-shadow: 6px 6px 9px 2px #001d459b;
+  background-color: #5252520b ;
+  /* box-shadow: 6px 6px 9px 2px #001d459b; */
 }
 
 #box > div {
@@ -406,9 +417,9 @@ nav .menu{
   height: 60px;
   padding: 05px;
   margin: 10px 5px;
-  font-weight: bolder;
+  font-weight: 500;
   cursor: pointer;
-  border-bottom: 1px solid #d0cfcf;
+  border-top: 1px solid #d0cfcf;
   color: black;
 }
 
@@ -436,7 +447,7 @@ nav .menu{
 .programs h1{
   text-align: center;
   margin-top: 32rem;
-  color:#001D45;
+  color:#000000;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
   font-size: 2.4rem;
@@ -447,7 +458,7 @@ nav .menu{
 }
 .programs .programbuttons button{
   height: 45px;
-  width: 280px;
+  width: 300px;
   border-radius: 5px;
   border: none;
   margin: 0 10px;
@@ -458,9 +469,10 @@ nav .menu{
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
-  background-color: transparent;
-  color: #001D45;
-  box-shadow: 10px 5px 5px #5555554b;
+  background-color: #f78222;
+  color: #000000;
+  box-shadow: 5px 4px 5px #5555554b;
+  letter-spacing: 0.1rem;
 }
 .programbuttons button:hover{
   color: #F78222;
@@ -520,7 +532,7 @@ nav .menu{
   font-weight: 800;
   text-align: center;
 }
-.programs .circle{
+/* .programs .circle{
   position: absolute;
   top: 1030px;
   left: 0;
@@ -528,21 +540,21 @@ nav .menu{
   height: 100%;
   background: #f48021;
   clip-path: circle(550px at right 900px);
-}
+} */
 .achieve{
   background-color: #ffffff;
 }
 .achieve h1{
   text-align: center;
   margin-top: 5rem;
-  color:#001D45;
+  color:#000000;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
   font-size: 2.4rem;
 }
 .achieve-img {
   background-image: linear-gradient(to bottom,  rgba(0, 29, 69, 0.156), rgba(0, 29, 69, 0.512)),
-  url('images/meet2018.jpg');
+  url('images2/meet2018.jpg');
   width: 1500px;
   height: 450px;
   position: relative;
